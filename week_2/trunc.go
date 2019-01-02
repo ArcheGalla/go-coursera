@@ -14,7 +14,7 @@ func main() {
 
 	if isError == nil {
 		result, _ := strconv.ParseFloat(input, 64)
-		fmt.Println("Entered number is", result)
+		fmt.Printf("Entered number is %g", result)
 	}
 
 }
