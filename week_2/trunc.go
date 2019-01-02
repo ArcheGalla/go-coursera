@@ -8,7 +8,7 @@ import (
 func main() {
 	var input string
 
-	fmt.Print("Enter a float number please :")
+	fmt.Print("Enter a floating point number => ")
 
 	_, isError := fmt.Scanln(&input)
 
