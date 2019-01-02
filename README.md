@@ -1,2 +1,2 @@
-# go-coursera
-Repo for Go lang specialization coursera cource
+# go  Coursera
+Repository for Go lang specialization course
