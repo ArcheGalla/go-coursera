@@ -13,8 +13,9 @@ func main() {
 	_, isError := fmt.Scanln(&input)
 
 	if isError == nil {
-		result, _ := strconv.ParseFloat(input, 64)
-		fmt.Printf("Entered number is %g", result)
+		resultFloat, _ := strconv.ParseFloat(input, 64)
+		resultInt := int(resultFloat)
+		fmt.Printf("Entered number is %d", resultInt)
 	}
 
 }
